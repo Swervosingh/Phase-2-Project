@@ -1,0 +1,751 @@
+{
+    "trivia": [
+        {
+            "id":1,
+            "team": "TimberWolves",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "Never",
+            "possibleAnswer":[
+                "1979",
+                "2001",
+                "1983",
+                "Never"
+            ]
+
+        },
+        {
+            "id":2,
+            "team": "TimberWolves",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Target Center",
+            "possibleAnswer":[
+                "Staples Center",
+                "Paycom Center",
+                "Smoothie King Center",
+                "Target Center"
+            ]
+        },
+        {
+            "id":3,
+            "team": "TimberWolves",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Chris Finch",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Chris Finch",
+                "Neon Kenly",
+                "Tyronn Lue"
+            ]
+        },
+        {
+            "id":4,
+            "team": "TimberWolves",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Mike Conley",
+            "possibleAnswer":[
+                "Kyle Anderson",
+                "Anthony Edwards",
+                "Chris Paul",
+                "Mike Conley"
+            ]
+        }, 
+        {
+            "id":5,
+            "team": "OKC Thunder",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "1979",
+            "possibleAnswer":[
+                "1979",
+                "1969",
+                "2005",
+                "Never"
+            ]
+
+        },
+        {
+            "id":6,
+            "team": "OKC Thunder",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Paycom Center",
+            "possibleAnswer":[
+                "Staples Center",
+                "Paycom Center",
+                "Smoothie King Center",
+                "Target Center"
+            ]
+        },
+        {
+            "id":7,
+            "team": "OKC Thunder",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Mark Daigneault",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Tyronn Lue",
+                "Chris Finch",
+                "Mark Daigneault"
+            ]
+        },
+        {
+            "id":8,
+            "team": "OKC Thunder",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Shai Gilgeous-Alexander",
+            "possibleAnswer":[
+                "Shai Gilgeous-Alexander",
+                "Josh Giddey",
+                "Olivier Sarr",
+                "Keyontae Johnson"
+            ]
+        },
+        {
+            "id":9,
+            "team": "Nuggets",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "1976",
+            "possibleAnswer":[
+                "1998",
+                "1987",
+                "1976",
+                "Never"
+            ]
+
+        },
+        {
+            "id":10,
+            "team": "Nuggets",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Ball Arena",
+            "possibleAnswer":[
+                "Staples Center",
+                "Paycom Center",
+                "Golden 1 Center",
+                "Ball Arena"
+            ]
+        },
+        {
+            "id":11,
+            "team": "Nuggets",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Michael Malone",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Tyronn Lue",
+                "Mike Brown",
+                "Mark Daigneault"
+            ]
+        },
+        {
+            "id":12,
+            "team": "Nuggets",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Jamal Murray",
+            "possibleAnswer":[
+                "Nikola Jokic",
+                "Aaron Gordon",
+                "Olivier Sarr",
+                "Jamal Murray"
+            ]
+        },
+        {
+            "id":13,
+            "team": "Clippers",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "Never",
+            "possibleAnswer":[
+                "1992",
+                "1991",
+                "2001",
+                "Never"
+            ]
+
+        },
+        {
+            "id":14,
+            "team": "Clippers",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Staples Center",
+            "possibleAnswer":[
+                "Staples Center",
+                "Paycom Center",
+                "American Airlines Center",
+                "Target Center"
+            ]
+        },
+        {
+            "id":15,
+            "team": "Clippers",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Tyronn Lue",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Chris Finch",
+                "Neon Kenly",
+                "Tyronn Lue"
+            ]
+        },
+        {
+            "id":16,
+            "team": "Clippers",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Reggie Jackson",
+            "possibleAnswer":[
+                "Kyle Anderson",
+                "Reggie Jackson",
+                "Chris Paul",
+                "Mike Conley"
+            ]
+        }, 
+        {
+            "id":17,
+            "team": "Suns",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "1979",
+            "possibleAnswer":[
+                "1979",
+                "1969",
+                "2005",
+                "Never"
+            ]
+
+        },
+        {
+            "id":18,
+            "team": "Suns",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Footprint Center",
+            "possibleAnswer":[
+                "Staples Center",
+                "Paycom Center",
+                "Footprint Center",
+                "Target Center"
+            ]
+        },
+        {
+            "id":19,
+            "team": "Suns",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Footprint Center",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Footprint Center",
+                "Chris Finch",
+                "Mark Daigneault"
+            ]
+        },
+        {
+            "id":20,
+            "team": "Suns",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Chris Paul",
+            "possibleAnswer":[
+                "Chris Paul",
+                "Josh Giddey",
+                "Olivier Sarr",
+                "Keyontae Johnson"
+            ]
+        },
+        {
+            "id":21,
+            "team": "Pelicans",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "1976",
+            "possibleAnswer":[
+                "1998",
+                "1987",
+                "1976",
+                "Never"
+            ]
+
+        },
+        {
+            "id":22,
+            "team": "Pelicans",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Smoothie King Center",
+            "possibleAnswer":[
+                "Smoothie King Center",
+                "Paycom Center",
+                "Golden 1 Center",
+                "Ball Arena"
+            ]
+        },
+        {
+            "id":23,
+            "team": "Pelicans",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Willie Green",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Willie Green",
+                "Mike Brown",
+                "Mark Daigneault"
+            ]
+        },
+        {
+            "id":24,
+            "team": "Pelicans",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Devonte' Graham",
+            "possibleAnswer":[
+                "Nikola Jokic",
+                "Aaron Gordon",
+                "Devonte' Graham",
+                "Jamal Murray"
+            ]
+        },
+        {
+            "id":25,
+            "team": "Mavericks",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "2011",
+            "possibleAnswer":[
+                "1998",
+                "2011",
+                "2012",
+                "Never"
+            ]
+
+        },
+        {
+            "id":26,
+            "team": "Mavericks",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "American Airlines Center",
+            "possibleAnswer":[
+                "Smoothie King Center",
+                "American Airlines Center",
+                "Golden 1 Center",
+                "Ball Arena"
+            ]
+        },
+        {
+            "id":27,
+            "team": "Mavericks",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Jason Kidd",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Jason Kidd",
+                "Mike Brown",
+                "Mark Daigneault"
+            ]
+        },
+        {
+            "id":28,
+            "team": "Mavericks",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Luka Dončić",
+            "possibleAnswer":[
+                "Nikola Jokic",
+                "Aaron Gordon",
+                "Devonte' Graham",
+                "Luka Dončić"
+            ]
+        },
+        {
+            "id":29,
+            "team": "Kings",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "Never",
+            "possibleAnswer":[
+                "1998",
+                "1987",
+                "1976",
+                "Never"
+            ]
+
+        },
+        {
+            "id":30,
+            "team": "Kings",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Golden 1 Center",
+            "possibleAnswer":[
+                "Smoothie King Center",
+                "Paycom Center",
+                "Golden 1 Center",
+                "Ball Arena"
+            ]
+        },
+        {
+            "id":31,
+            "team": "Kings",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Mike Brown",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Willie Green",
+                "Mark Daigneault",
+                "Mike Brown"
+            ]
+        },
+        {
+            "id":32,
+            "team": "Kings",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "De'Aaron Fox",
+            "possibleAnswer":[
+                "Nikola Jokic",
+                "Aaron Gordon",
+                "Devonte' Graham",
+                "De'Aaron Fox"
+            ]
+        },
+        {
+            "id":33,
+            "team": "Lakers",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "2020",
+            "possibleAnswer":[
+                "2021",
+                "2020",
+                "2022",
+                "Never"
+            ]
+
+        },
+        {
+            "id":34,
+            "team": "Lakers",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Crypto.com Arena",
+            "possibleAnswer":[
+                "Crypto.com Arena",
+                "Paycom Center",
+                "Golden 1 Center",
+                "Ball Arena"
+            ]
+        },
+        {
+            "id":35,
+            "team": "Lakers",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Darvin Ham",
+            "possibleAnswer":[
+                "Darvin Ham",
+                "Tyronn Lue",
+                "Mike Brown",
+                "Mark Daigneault"
+            ]
+        },
+        {
+            "id":36,
+            "team": "Lakers",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "D'Angelo Russell",
+            "possibleAnswer":[
+                "Nikola Jokic",
+                "Aaron Gordon",
+                "Olivier Sarr",
+                "D'Angelo Russell"
+            ]
+        },
+        {
+            "id":37,
+            "team": "Warriors",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "2018",
+            "possibleAnswer":[
+                "2018",
+                "2019",
+                "2017",
+                "Never"
+            ]
+
+        },
+        {
+            "id":38,
+            "team": "Warriors",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Chase Center",
+            "possibleAnswer":[
+                "Staples Center",
+                "Paycom Center",
+                "Golden 1 Center",
+                "Chase Center"
+            ]
+        },
+        {
+            "id":39,
+            "team": "Warriors",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Steve Kerr",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Tyronn Lue",
+                "Mike Brown",
+                "Steve Kerr"
+            ]
+        },
+        {
+            "id":40,
+            "team": "Warriors",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Stephen Curry",
+            "possibleAnswer":[
+                "Stephen Curry",
+                "Aaron Gordon",
+                "Lebron James",
+                "Jamal Murray"
+            ]
+        },
+        {
+            "id":41,
+            "team": "Jazz",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "Never",
+            "possibleAnswer":[
+                "1979",
+                "2001",
+                "1983",
+                "Never"
+            ]
+
+        },
+        {
+            "id":42,
+            "team": "Jazz",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Vivint Arena",
+            "possibleAnswer":[
+                "Staples Center",
+                "Paycom Center",
+                "Vivint Arena",
+                "Target Center"
+            ]
+        },
+        {
+            "id":43,
+            "team": "Jazz",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Quin Snyder",
+            "possibleAnswer":[
+                "Quin Snyder",
+                "Chris Finch",
+                "Neon Kenly",
+                "Tyronn Lue"
+            ]
+        },
+        {
+            "id":44,
+            "team": "Jazz",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Will Hardy",
+            "possibleAnswer":[
+                "Kyle Anderson",
+                "Anthony Edwards",
+                "Chris Paul",
+                "Will Hardy"
+            ]
+        }, 
+        {
+            "id":45,
+            "team": "Rockets",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "1995",
+            "possibleAnswer":[
+                "1995",
+                "1989",
+                "2004",
+                "Never"
+            ]
+
+        },
+        {
+            "id":46,
+            "team": "Rockets",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Toyota Center",
+            "possibleAnswer":[
+                "Toyota Center",
+                "Paycom Center",
+                "Smoothie King Center",
+                "Target Center"
+            ]
+        },
+        {
+            "id":47,
+            "team": "Rockets",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Ime Sunday Udoka",
+            "possibleAnswer":[
+                "Michael Malone",
+                "Tyronn Lue",
+                "Chris Finch",
+                "Ime Sunday Udoka"
+            ]
+        },
+        {
+            "id":48,
+            "team": "Rockets",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Fred VanVleet",
+            "possibleAnswer":[
+                "Shai Gilgeous-Alexander",
+                "Fred VanVleet",
+                "Olivier Sarr",
+                "Keyontae Johnson"
+            ]
+        },
+        {
+            "id":49,
+            "team": "Grizzlies",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "Never",
+            "possibleAnswer":[
+                "1979",
+                "2001",
+                "1983",
+                "Never"
+            ]
+
+        },
+        {
+            "id":50,
+            "team": "Grizzlies",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "FedExForum",
+            "possibleAnswer":[
+                "Staples Center",
+                "FedExForum",
+                "Vivint Arena",
+                "Target Center"
+            ]
+        },
+        {
+            "id":51,
+            "team": "Grizzlies",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Taylor Jenkins",
+            "possibleAnswer":[
+                "Quin Snyder",
+                "Chris Finch",
+                "Taylor Jenkins",
+                "Tyronn Lue"
+            ]
+        },
+        {
+            "id":52,
+            "team": "Grizzlies",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Ja Morant",
+            "possibleAnswer":[
+                "Kyle Anderson",
+                "Anthony Edwards",
+                "Chris Paul",
+                "Will Hardy"
+            ]
+        }, 
+        {
+            "id":53,
+            "team": "Trail Blazers ",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "1977",
+            "possibleAnswer":[
+                "1977",
+                "1987",
+                "2007",
+                "Never"
+            ]
+
+        },
+        {
+            "id":54,
+            "team": "Trail Blazers ",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Moda Center",
+            "possibleAnswer":[
+                "Toyota Center",
+                "Paycom Center",
+                "Moda Center",
+                "Target Center"
+            ]
+        },
+        {
+            "id":55,
+            "team": "Trail Blazers ",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Chauncey Ray Billups",
+            "possibleAnswer":[
+                "Chauncey Ray Billups",
+                "Tyronn Lue",
+                "Chris Finch",
+                "Ime Sunday Udoka"
+            ]
+        },
+        {
+            "id":56,
+            "team": "Trail Blazers ",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Malcolm Brogdon",
+            "possibleAnswer":[
+                "Shai Gilgeous-Alexander",
+                "Malcolm Brogdon",
+                "Olivier Sarr",
+                "Keyontae Johnson"
+            ]
+        },
+        {
+            "id":57,
+            "team": "Spurs",
+            "questions": "When was the last time they won a championship?",
+            "correctAnswer": "2014",
+            "possibleAnswer":[
+                "2021",
+                "2020",
+                "2014",
+                "Never"
+            ]
+
+        },
+        {
+            "id":58,
+            "team": "Spurs",
+            "questions": "Name of their Arena?",
+            "correctAnswer": "Frost Bank Center",
+            "possibleAnswer":[
+                "Staples Center",
+                "Frost Bank Center",
+                "Golden 1 Center",
+                "Ball Arena"
+            ]
+        },
+        {
+            "id":59,
+            "team": "Spurs",
+            "questions": "Name of Current Coach?",
+            "correctAnswer": "Gregg Popovich",
+            "possibleAnswer":[
+                "Darvin Ham",
+                "Tyronn Lue",
+                "Mike Brown",
+                "Gregg Popovich"
+            ]
+        },
+        {
+            "id":60,
+            "team": "Spurs",
+            "questions": "Current starting Point Guard?",
+            "correctAnswer": "Devonte Graham",
+            "possibleAnswer":[
+                "Devonte Graham",
+                "Aaron Gordon",
+                "Olivier Sarr",
+                "D'Angelo Russell"
+            ]
+        }
+
+    ]
+
+}
+
+
+
+
+
+
+
+
+
+
