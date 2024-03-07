@@ -2,6 +2,7 @@ import React from "react";
 import Options from "./Options";
 import QuestionPage from "./QuestionPage";
 import { useState, useEffect } from "react";
+import { Outlet } from "react-router-dom";
 
 
 
@@ -28,11 +29,13 @@ export default function MyPage() {
     })
     
     return ( 
-        <div>
-
-            <QuestionPage filteredArray={filteredArray}/>   
-            
+        <div className="main-page">
             <Options setChooseTeam={setChooseTeam} />
+            <Outlet context={{filteredArray}}/> 
+
+            {/* <QuestionPage filteredArray={filteredArray}/>    */}
+            
+            
 
         </div>
     )

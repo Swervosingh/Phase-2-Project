@@ -1,29 +1,22 @@
 .SearchBar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 0; /* Adjust padding as needed */
-    /* background-color: #f8f7fa; Optionally set background color */
-    z-index: 999; /* Adjust z-index as needed */
+    margin: 20px;
 }
 .centeredContainer {
     display:flex;
-    /* justify-content: center;  */
+    /* justify-content: ;  */
     flex-wrap: wrap;
     
     
     
   }
 
-  .SearchBar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px
-  }
+
 
   .buttonContainer {
     display: flex;
