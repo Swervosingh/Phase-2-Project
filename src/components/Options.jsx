@@ -1,13 +1,15 @@
 import { useState } from "react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Options({ setChooseTeam }) { 
 
-    
+    const navigate =  useNavigate()
 
     
     function handleFilter(e) { 
         setChooseTeam(e.target.value);
+        navigate(`/quiz/${e.target.value}`)
         
     }
     
@@ -15,14 +17,7 @@ export default function Options({ setChooseTeam }) {
     return ( 
             <div className="SearchBar">
                 
-                <input 
-                    
-                    type="text"
-                    placeholder="Search Teams"
-                    onChange={handleFilter}
-                    
-                    
-                />
+                
 
               <div className="buttonContainer">
               <button value="Lakers" onClick={handleFilter}>Lakers</button>
@@ -30,9 +25,15 @@ export default function Options({ setChooseTeam }) {
               <button value="OKC Thunder" onClick={handleFilter}>OKC Thunder</button>
               <button value="Nuggets" onClick={handleFilter}>Nuggets</button>
               <button value="Clippers" onClick={handleFilter}>Clippers</button>
-              
-                
             </div>
+            <input 
+                  
+                  type="text"
+                  placeholder="Search Teams"
+                  onChange={handleFilter}
+                  
+                  
+              />
             </div>
         );
 }
