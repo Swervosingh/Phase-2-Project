@@ -6,15 +6,28 @@
     top: 0;
     width: 100%;
     padding: 20px 0; /* Adjust padding as needed */
-    background-color: #ffffff; /* Optionally set background color */
+    /* background-color: #f8f7fa; Optionally set background color */
     z-index: 999; /* Adjust z-index as needed */
 }
 .centeredContainer {
     display:flex;
-    justify-content: center;
-    
-    
+    /* justify-content: center;  */
     flex-wrap: wrap;
+    
+    
+    
   }
 
+  .SearchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px
+  }
 
+  .buttonContainer {
+    display: flex;
+    gap: 10px; 
+    flex-direction: row;
+}
+  

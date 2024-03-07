@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 
 
 
+
 export default function MyPage() { 
 
     const [trivia, setTrivia] = useState([])
@@ -21,7 +22,10 @@ export default function MyPage() {
     
 
 
-    const filteredArray = trivia.filter(trivia => {return trivia.team.toLowerCase().includes(chooseTeam.toLowerCase())})
+    const filteredArray = trivia.filter(trivia => {
+      if(chooseTeam!== ''){
+      return trivia.team.toLowerCase().includes(chooseTeam.toLowerCase())}
+    })
     
     return ( 
         <div>

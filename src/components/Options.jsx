@@ -21,8 +21,18 @@ export default function Options({ setChooseTeam }) {
                     placeholder="Search Teams"
                     onChange={handleFilter}
                     
+                    
                 />
+
+              <div className="buttonContainer">
+              <button value="Lakers" onClick={handleFilter}>Lakers</button>
+              <button value="TimberWolves" onClick={handleFilter}>TimberWolves</button>
+              <button value="OKC Thunder" onClick={handleFilter}>OKC Thunder</button>
+              <button value="Nuggets" onClick={handleFilter}>Nuggets</button>
+              <button value="Clippers" onClick={handleFilter}>Clippers</button>
+              
                 
+            </div>
             </div>
         );
 }
