@@ -1,43 +1,37 @@
-import { useState } from "react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function Options({ setChooseTeam }) { 
+const nbaTeams = [
+  "Atlanta Hawks", "Boston Celtics", "Brooklyn Nets", "Charlotte Hornets", "Chicago Bulls",
+  "Cleveland Cavaliers", "Dallas Mavericks", "Denver Nuggets", "Detroit Pistons", "Golden State Warriors",
+  "Houston Rockets", "Indiana Pacers", "LA Clippers", "Los Angeles Lakers", "Memphis Grizzlies",
+  "Miami Heat", "Milwaukee Bucks", "Minnesota Timberwolves", "New Orleans Pelicans", "New York Knicks",
+  "Oklahoma City Thunder", "Orlando Magic", "Philadelphia 76ers", "Phoenix Suns", "Portland Trail Blazers",
+  "Sacramento Kings", "San Antonio Spurs", "Toronto Raptors", "Utah Jazz", "Washington Wizards"
+];
 
-    const navigate =  useNavigate()
+export default function Options({ setChooseTeam }) {
+  const navigate = useNavigate();
 
-    
-    function handleFilter(e) { 
-        setChooseTeam(e.target.value);
-        navigate(`/quiz/${e.target.value}`)
-        
-    }
-    
-        
-    return ( 
-            <div className="SearchBar">
-                
-                
+  function handleFilter(team) {
+    setChooseTeam(team);
+    navigate(`/quiz/${team}`);
+  }
 
-              <div className="buttonContainer">
-              <button value="Lakers" onClick={handleFilter}>Lakers</button>
-              <button value="TimberWolves" onClick={handleFilter}>TimberWolves</button>
-              <button value="OKC Thunder" onClick={handleFilter}>OKC Thunder</button>
-              <button value="Nuggets" onClick={handleFilter}>Nuggets</button>
-              <button value="Clippers" onClick={handleFilter}>Clippers</button>
-            </div>
-            <input 
-                  
-                  type="text"
-                  placeholder="Search Teams"
-                  onChange={handleFilter}
-                  
-                  
-              />
-            </div>
-        );
+  return (
+    <div className="SearchBar">
+      <div className="buttonContainer">
+        {nbaTeams.map(team => (
+          <button key={team} value={team} onClick={() => handleFilter(team)}>
+            {team}
+          </button>
+        ))}
+      </div>
+      <input
+        type="text"
+        placeholder="Search Teams"
+        onChange={e => handleFilter(e.target.value)}
+      />
+    </div>
+  );
 }
-
-
-
-    
