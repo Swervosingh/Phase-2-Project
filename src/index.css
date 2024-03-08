@@ -7,14 +7,7 @@
     width: 100%;
     margin: 20px;
 }
-.centeredContainer {
-    display:flex;
-    justify-content:center ; 
-    flex-wrap: wrap;
-    
-    
-    
-  }
+
 
 
 
@@ -24,3 +17,34 @@
     flex-direction: row;
 }
   
+.centeredContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.questionCard {
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.answerButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.answerButton:hover {
+  background-color: #f0f0f0;
+}

@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 
@@ -55,5 +54,3 @@ export default function QuestionCard({triviaObj}) {
         </div>
     )
 }
-
-
