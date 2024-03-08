@@ -1,26 +1,45 @@
+.teamButton {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #839083; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+.teamButton:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
+
+
+
 .SearchBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    width: 100%;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  margin: 20px;
 }
 .centeredContainer {
-    display:flex;
-    justify-content:center ; 
-    flex-wrap: wrap;
-    
-    
-    
-  }
-
-
-
-  .buttonContainer {
-    display: flex;
-    gap: 10px; 
-    flex-direction: row;
-}
+  display:flex;
+  justify-content:center ; 
+  flex-wrap: wrap;
   
+  
+  
+}
+
+
+
+.buttonContainer {
+  display: flex;
+  gap: 10px; 
+  flex-direction: row;
+}
+
