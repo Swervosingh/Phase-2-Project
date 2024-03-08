@@ -5,6 +5,8 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import QuestionPage from './components/QuestionPage'
 import MyPage from './components/MyPage'
+import About from './components/About'
+
 function Main() {
 
     const routes = createBrowserRouter([
@@ -14,7 +16,7 @@ function Main() {
             children: [
                 {
                     path: "/",
-                    element: <h1>Welcome to NBA trivia</h1>
+                    element: <About />
                 },
                 {
                     path: "/quiz/:team",

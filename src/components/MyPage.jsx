@@ -1,5 +1,6 @@
 import React from "react";
 import Options from "./Options";
+import Home from "./Home"; 
 import QuestionPage from "./QuestionPage";
 import { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
@@ -30,6 +31,7 @@ export default function MyPage() {
     
     return ( 
         <div className="main-page">
+            <Home />
             <Options setChooseTeam={setChooseTeam} />
             <Outlet context={{filteredArray}}/> 
 
